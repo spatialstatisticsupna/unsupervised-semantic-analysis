@@ -6,6 +6,4 @@ C. Echegoyen, A. Pérez, G. Santafé, U. Pérez-Goya and M.D Ugarte. Large-scale
 
 We provide python notebooks with the experiments of the paper in the directory `experiments`.  
 
-We share the models trained for the experiments of the paper in the directory `models`
-
-We provide an example of a sequence of stallite images in the directory `data`. The rest of images can be shared on request.
+An example of the models and sequences of satelllite images used in the paper can be dowolad [here](https://emi-sstcdapp.unavarra.es/unsupervised-semantic-analysis.zip). The models should be in the directory `models` and the sequence of satellite images in the directory `data/NE-TXN`. The rest of models and images are not provided here due to space constraints, but they can be shared upon request.
