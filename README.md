@@ -2,7 +2,7 @@
 
 Code developed for the research work: 
 
-C. Echegoyen, A. Pérez, G. Santafé, U. Pérez-Goya and M.D Ugarte. Large-scale unsupervised spatio-temporal semantic analysis of vast regions from satellite images sequences. Statistics and Computing 34, 71 (2024).
+C. Echegoyen, A. Pérez, G. Santafé, U. Pérez-Goya and M.D Ugarte. [Large-scale unsupervised spatio-temporal semantic analysis of vast regions from satellite images sequences] (https://link.springer.com/article/10.1007/s11222-024-10383-y?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=oa_20240205&utm_content=10.1007/s11222-024-10383-y). Statistics and Computing 34, 71 (2024).
 
 We provide python notebooks with the experiments of the paper in the directory `experiments`.  
 
