@@ -7,3 +7,7 @@ C. Echegoyen, A. Pérez, G. Santafé, U. Pérez-Goya and M.D Ugarte. [Large-scal
 We provide python notebooks with the experiments of the paper in the directory `experiments`.  
 
 An example of sequence with 3 satellite images and the embedding models trained for the paper can be dowolad [here](https://emi-sstcdapp.unavarra.es/unsupervised-semantic-analysis.zip). The models should be in the directory `models` and the sequence of satellite images in the directory `data/NE-TXN`. The rest of images are not provided here due to space constraints, but they can be shared upon request.
+
+Run the notebooks in this order:
+1. Create_grid_MTS: loads a model and creates a collection of multivariate time series by embedding sequnces of tiles.
+2. Experiment_1: runs and plots the clustering of time series in differente ways, calculates qualitiy measures and explores the semantic provided by the clustering
