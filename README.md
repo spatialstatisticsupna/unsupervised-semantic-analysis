@@ -6,10 +6,12 @@ C. Echegoyen, A. Pérez, G. Santafé, U. Pérez-Goya and M.D Ugarte. [Large-scal
 
 We provide python notebooks with the experiments of the paper in the directory `experiments`.  
 
-An example of sequence with 3 satellite images and the embedding models trained for the paper can be dowolad [here](https://emi-sstcdapp.unavarra.es/unsupervised-semantic-analysis.zip). The models should be in the directory `models` and the sequence of satellite images in the directory `data/NE-TXN`. The rest of images are not provided here due to space constraints, but they can be shared upon request.
+An example of sequence with 3 Sentinel-2 images and the embedding models trained for the paper can be dowolad [here](https://emi-sstcdapp.unavarra.es/unsupervised-semantic-analysis.zip). The models should be in the directory `models` and the sequence of satellite images in the directory `data/NE-TXN`. The rest of images are not provided here due to space constraints, but they can be shared upon request.
 
 The directory `src` contains the [Tile2Vec code](https://github.com/ermongroup/tile2vec) with some mofications and additional functions. As indicated by the authors, the Tile2Vec LICENSE is included in this repository.
 
-Run the notebooks in this order (note that the results correspond to a sequence of 3 images):
+Run the notebooks in this order:
 1. Create_grid_MTS: loads a model and creates a collection of multivariate time series by embedding sequnces of tiles.
 2. Experiment_1: runs and plots the clustering of time series in differente ways, calculates qualitiy measures and explores the semantic provided by the clustering
+
+Note that the results of these illustrative examples correspond to a sequence of 3 images. In the paper, we analyze a region covered by 4 images and use sequences of 20 images.
