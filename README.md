@@ -10,6 +10,6 @@ An example of sequence with 3 satellite images and the embedding models trained 
 
 The directory `src` contains the [Tile2Vec code](https://github.com/ermongroup/tile2vec) with some mofications and additional functions. As indicated by the authors, the Tile2Vec LICENSE is included in this repository.
 
-Run the notebooks in this order:
+Run the notebooks in this order (note that the results correspond to a sequence of 3 images):
 1. Create_grid_MTS: loads a model and creates a collection of multivariate time series by embedding sequnces of tiles.
 2. Experiment_1: runs and plots the clustering of time series in differente ways, calculates qualitiy measures and explores the semantic provided by the clustering
