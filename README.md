@@ -23,6 +23,7 @@ An example of sequence with 3 Sentinel-2 images and the embedding models trained
 
 Note that the results of these illustrative examples correspond to a sequence of 3 images. In the paper, we analyze a region covered by 4 images and use sequences of 20 images.
 
+
 ## Acknowledgements
 
 This work has been supported by Project PID2020-113125RB-I00/MCIN/AEI/10.130 39/501100011033. Aritz Pérez has been supported by Basque Government through the Elkartek program and the BERC 2022-2025 program, and by the Ministry of Science and Innovation: BCAM Severo Ochoa accreditation CEX2021-001142-S/ MICIN/ AEI/ 10.13039/ 501100011033.
